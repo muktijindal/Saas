@@ -1,0 +1,68 @@
+.container {
+  width: full;
+  border-radius: 2%;
+  height: 100%;
+  background-color: black;
+  padding: 1%;
+}
+.container .sub-container {
+  width: full;
+  height: 100%;
+  padding: 1%;
+  background-color: white;
+}
+.container .sub-container .topnavbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .sub-container .topnavbar h2 {
+  margin: 0 10px;
+}
+.container .sub-container .topnavbar button {
+  border-radius: 10px;
+}
+.container .sub-container .navbar {
+  padding-top: 10px;
+  width: full;
+  height: 30px;
+  background-color: #9d9999;
+  overflow: auto;
+  position: sticky;
+  top: 0;
+  text-align: center;
+  font-size: medium;
+  display: flex;
+  justify-content: space-between;
+}
+.container .sub-container .navbar h1 {
+  color: black;
+}
+.container .sub-container .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .sub-container .row h1 {
+  padding-top: 2%;
+  padding-left: 10%;
+}
+.container .sub-container .row h2 {
+  text-align: right;
+  padding-right: 10%;
+}
+.container .sub-container .row .shoping-btn {
+  justify-content: end;
+  padding-right: 0%;
+}
+.container .sub-container .row button {
+  border-radius: 20%;
+}
+.container .sub-container .photos {
+  display: flex;
+  padding-top: 8%;
+  justify-content: space-between;
+}
+.container .sub-container img {
+  border-radius: 10%;
+}/*# sourceMappingURL=style.css.map */
